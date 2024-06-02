@@ -1,0 +1,1306 @@
+@media (max-width:1050px) {
+    .headerSection nav {
+        width: 75%;
+        border-radius: 2.5rem;
+        grid-template-columns: 0.3fr auto 0.4fr;
+    }
+
+    .headerSection nav .left {
+        justify-content: center;
+    }
+
+    .headerSection nav .left span {
+        font-size: 1.3rem;
+    }
+
+    .headerSection nav .mid ul {
+        gap: 3rem;
+    }
+
+    .container .left div:first-child {
+        font-size: 1rem;
+    }
+
+    .container .left div:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .container .left .desc {
+        width: 50%;
+        padding-left: 1rem;
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .container .right .imgBack {
+        height: 45vw;
+        width: 46vw;
+        bottom: -10rem;
+    }
+
+    .container .right .cvDownload {
+        height: 4.5rem;
+        width: 4.5rem;
+        bottom: 5rem;
+        left: -2rem;
+    }
+
+    .container .right .cvDownload::before {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .container .right .cvDownload::after {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .container .right .image {
+        padding-right: 6rem;
+    }
+
+    .container .right .image img {
+        height: 24rem;
+    }
+
+    .homeSection .blur2 {
+        top: 6rem;
+    }
+
+    .socialIcons {
+        top: 4rem;
+        z-index: 99;
+    }
+
+    .aboutSection .img span {
+        font-size: 5rem;
+    }
+
+    .mySkillSection .upper {
+        font-size: 5rem;
+    }
+
+    .mySkillSection .lower>div {
+        width: 70%;
+    }
+
+    .myProjectSection .heading {
+        font-size: 5rem;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+
+    }
+
+    .myProjectSection .projects {
+        gap: 3rem;
+    }
+
+    .myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+        right: 10rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+
+        left: -18rem;
+        align-items: end;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) .img {
+        width: 30rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) {
+        margin-right: 10rem;
+    }
+
+    .myBlogSection {
+        gap: 2rem;
+    }
+
+    .myBlogSection .heading {
+        font-size: 5rem;
+        margin-left: 6rem;
+    }
+
+    .followMeSection>div {
+        gap: 4rem;
+    }
+
+    .followMeSection>div .left {
+        font-size: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .followMeSection>div .right .socialIcon {
+        gap: 1rem 2rem;
+    }
+
+    .followMeSection>div .right .socialIcon .icon {
+        font-size: 2.5rem;
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .followMeSection {
+        padding: 4rem 0;
+    }
+
+    footer {
+        padding: 2rem 0;
+    }
+
+    footer>.upper {
+        gap: 5rem;
+    }
+
+    .contactSection {
+        gap: 2rem;
+    }
+
+    .contactSection {
+        gap: 2rem;
+    }
+}
+
+@media (max-width:930px) {
+    .container .lines {
+        top: 3rem;
+    }
+
+    .container .right .imgBack {
+        height: 22rem;
+        width: 22rem;
+        right: 1.5rem;
+    }
+
+    .container .right .image img {
+        height: 19rem;
+        right: 3.5rem;
+        position: absolute;
+    }
+
+    .container .right .cvDownload {
+        bottom: 5rem;
+        left: 4vw;
+    }
+
+    .homeSection .blur2 {
+        top: 3rem;
+    }
+
+    .aboutSection .right .desc {
+        width: 80%;
+    }
+
+    .socialIcons {
+        top: 0rem;
+    }
+
+    .aboutSection .img {
+        position: relative;
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .aboutSection .img span {
+        font-size: 4rem;
+        top: -1rem;
+    }
+
+    .mySkillSection {
+        gap: 3rem;
+        padding: 3rem 0;
+    }
+
+    .mySkillSection .upper {
+        font-size: 4rem;
+    }
+
+    /* project section */
+    .myProjectSection {
+
+        overflow: hidden;
+    }
+
+    .myProjectSection .heading {
+        font-size: 4rem;
+    }
+
+    .myProjectSection .projects {
+        gap: 2rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(1) {
+        margin-left: 2rem;
+    }
+
+    .myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+        right: -25vw;
+    }
+
+    .myProjectSection .projects>div:nth-child(1) {
+        margin-left: 2rem;
+        width: fit-content;
+    }
+
+    .myProjectSection .projects div .img {
+        height: 12rem;
+        width: 22rem;
+        border-radius: 15px;
+    }
+
+    .myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+        font-size: 2.5rem;
+    }
+
+    .myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+        font-size: 1.5rem;
+        color: rgb(120, 124, 134);
+    }
+
+    .myProjectSection .projects>div:nth-child(2) {
+        margin-right: 10rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) .img {
+        height: 22rem;
+        width: 20rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) {
+        margin-left: 6rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) {
+        margin-right: 7rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) {
+        margin-right: 2rem;
+    }
+
+    /* blog section */
+    .myBlogSection .heading {
+        font-size: 4rem;
+        margin-left: 0rem;
+        justify-content: center;
+    }
+
+    .myBlogSection .content .left .button {
+        height: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .myBlogSection .content .left>div {
+        width: 20rem;
+        gap: 0.5rem;
+        height: 22rem;
+    }
+
+    .myBlogSection .content .left .card .img {
+        height: 12rem;
+    }
+
+    .myBlogSection .content .left>div .title {
+        font-size: 1.3rem;
+    }
+
+    .myBlogSection .content .right>div {
+        width: 20rem;
+        gap: 0.5rem;
+        height: 22rem;
+    }
+
+    .myBlogSection .content .right .card .img {
+        height: 12rem;
+    }
+
+    .myBlogSection .content .right>div .title {
+        font-size: 1.3rem;
+    }
+
+    /* contact section */
+
+    .contactSection .heading { 
+        font-size: 4rem; 
+    }.contactSection .form form div { 
+        width: 75%; gap: 0.8rem;
+    }.contactSection .form form div input { 
+        border-radius: 8px; 
+        left: 0rem; 
+    }.contactSection .form form div textarea { 
+        border-radius: 8px; 
+        left: 0rem; 
+    }
+    /* follow me section */
+    .followMeSection>div .left {
+        font-size: 4rem;}    .followMeSection>div .right .socialIcon .icon {
+            font-size: 2rem;
+            height: 3.5rem;
+            width: 3.5rem;
+        }
+    
+}
+
+
+
+
+@media (max-width:768px) {
+    .headerSection nav {
+        width: 90%;
+        border-radius: 2rem;
+        grid-template-columns: 0.3fr auto 0.4fr;
+    }
+
+    .container .lines {
+        left: -2.5rem;
+        top: 4rem;
+        opacity: 0.7;
+    }
+
+    .container .left div:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .container .left .desc {
+        width: 60%;
+    }
+
+    .container .left .desc {
+        width: 60%;
+        margin-top: 1rem;
+    }
+
+    .container .right .image img {
+        height: 20rem;
+    }
+
+    .homeSection .blur2 {
+        top: 0rem;
+        bottom: 0;
+    }
+
+    .container .left .desc {
+        width: 70%;
+        margin: 1rem 0;
+    }
+
+    .container .right .imgBack {
+        height: 19rem;
+        width: 20rem;
+        bottom: -7rem;
+    }.container .right .cvDownload {
+        bottom: 5rem;
+        left: 0rem;
+    }
+
+    .container .left div:first-child {
+        font-size: 1rem;
+    }
+
+    .container .left div:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .container .right .image {
+        padding-right: 4rem;
+    }
+
+    .container .right .image img {
+        height: 16rem;
+    }
+
+    /* about section */
+    .aboutSection .img {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .aboutSection .img span {
+        font-size: 3rem;
+        top: -3rem;
+        width: 15rem;
+    }
+
+    .aboutSection .right .desc {
+        width: 80%;
+        margin-top: 0rem;
+    }
+
+    .aboutSection .right .arrow {
+        display: none;
+    }
+
+    .aboutSection .right {
+        gap: 1rem;
+    }
+
+    .aboutSection {
+        height: 90vh;
+    }
+
+    /* projects section */
+    .myProjectSection {
+        overflow: hidden;
+    }
+
+    .myProjectSection .heading {
+        font-size: 3rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(1) {
+        margin-left: 4rem;
+    }
+
+    .myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+        right: 1rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+        top: 11rem;
+        right: -8rem;
+        align-items: end;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+        top: 10rem;
+        left: -3rem;
+        align-items: start;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) {
+        margin-right: 1rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) {
+        margin-left: 2rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+        right: -15rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) {
+        margin-right: 2rem;
+    }
+
+    /* my skills section */
+    .mySkillSection .upper {
+        font-size: 4rem;
+    }
+
+    .mySkillSection .lower>div {
+        width: 90%;
+    }
+
+    .mySkillSection .lower li {
+        height: 0.9rem;
+        width: 0.9rem;
+    }
+
+    /* my bolog section */
+    .myBlogSection {
+        padding-bottom: 4rem;
+        overflow: hidden;
+    }
+
+    .myBlogSection .heading {
+        font-size: 4rem;
+        margin-left: 0rem;
+        justify-content: center;
+    }
+
+    .myBlogSection .content .left>div {
+        width: 45vw;
+        height: 22rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .myBlogSection .content .right>div {
+        width: 45vw;
+        height: 22rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .myBlogSection .content .left .button {
+        height: 5rem;
+        align-items: center;
+    }
+
+    .myBlogSection .content .left .card .img {
+        height: 10rem;
+    }
+
+    .myBlogSection .content .left .card .img {
+        height: 10rem;
+    }
+
+    .myBlogSection .content .left>div .title {
+        font-size: 1.3rem;
+    }
+
+    .myBlogSection .content .left>div .title {
+        font-size: 1.3rem;
+    }
+
+    .myBlogSection .content .right .button {
+        height: 5rem;
+        align-items: center;
+    }
+
+    .myBlogSection .content .left .card .img {
+        height: 10rem;
+    }
+
+    .myBlogSection .content .right .card .img {
+        height: 10rem;
+    }
+
+    .myBlogSection .content .right>div .title {
+        font-size: 1.3rem;
+    }
+
+    .myBlogSection .content .right>div .title {
+        font-size: 1.3rem;
+    }
+
+    /* }contact section */
+    .contactSection {
+        gap: 1rem;
+        overflow: hidden;
+    }
+
+    .contactSection .heading {
+        font-size: 4rem;
+    }
+
+    .contactSection .form {
+        border-radius: 10px;
+        width: 80vw;
+    }
+
+    .contactSection .circle1 {
+        border-radius: 10px;
+    }
+
+    .contactSection .form form div textarea {
+        left: 0;
+        border-radius: 10px;
+        max-width: 100%;
+    }
+
+    .contactSection .form form div input {
+        left: 0;
+        border-radius: 10px;
+    }
+
+    /* ooter section */
+    .followMeSection>div {
+        gap: 2rem;
+    }
+
+    .followMeSection>div .left {
+        font-size: 4rem;
+    }
+
+    .followMeSection>div .right .socialIcon {
+        gap: 1rem 1rem;
+    }
+}
+
+@media (max-width:660px) {
+
+    /* hme section */
+    .container .left div:first-child {
+        font-size: .8rem;
+    }
+
+    .container .left div:nth-child(2) {
+        font-size: 1.25rem;
+    }
+
+    .container .left .desc {
+        width: 70%;
+        margin: .7rem 0;
+        font-size: .8rem;
+    }
+
+    .socialIcons .icon {
+        font-size: 1rem;
+    }
+
+    .socialIcons {
+        top: 2rem;
+        z-index: 99;
+    }
+
+    .container .left {
+        padding-left: 3rem;
+        gap: .5rem;
+        padding-top: 3rem;
+    }
+
+    .container .left div:first-child {
+        font-size: .8rem;
+    }
+
+    .container .left div:first-child {
+        font-size: .8rem;
+    }
+
+    .container .right .image {
+        padding-right: 2rem;
+    }
+
+    .container .right .image img {
+        height: 11rem;
+    }
+
+    .homeSection .blur1 {
+        height: 20rem;
+        width: 30rem;
+        top: -6rem;
+    }
+
+    .homeSection .blur2 {
+        height: 9rem;
+        width: 30rem;
+        bottom: 0rem;
+        top: unset;
+        filter: blur(60px);
+    }
+
+    .container .lines {
+        left: -3rem;
+        gap: 1rem;
+        top: 2rem;
+    }
+
+    .container .right .cvDownload {
+        height: 3.5rem;
+        width: 3.5rem;
+        bottom: 4rem;
+        left: 0rem;
+    }
+
+    .container .right .cvDownload::before {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .container .right .cvDownload::after {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .container .right .imgBack {
+        height: 13rem;
+        width: 13rem;
+        bottom: -5rem;
+        right: 2.5rem;
+    }
+
+    .container .lines span {
+        height: 0.2rem
+    }
+
+    /* about section */
+    .aboutSection .img span {
+
+        right: -2rem;
+    }
+
+
+    /* myskills section */
+    .mySkillSection .lower {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .mySkillSection .lower {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 1rem;
+    }
+
+    .mySkillSection .lower>div {
+        width: 70%;
+    }
+
+    /* project sectiopn */
+    .myProjectSection {
+        gap: 1rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(1) {
+        margin-left: 1rem;
+    }
+
+    .myProjectSection .projects div .img {
+        height: 10rem;
+        width: 20rem;
+        border-radius: 12px;
+    }
+
+    .myProjectSection .projects {
+        gap: 2rem;
+    }
+
+    .myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+        right: 1rem;
+    }
+
+    .myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) .img {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+        left: -13rem;
+        align-items: end;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) .img {
+        height: 15rem;
+        width: 18rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+        right: -10rem;
+        top: 10rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) .img {
+        width: 25rem;
+        height: 13rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+        top: 9rem;
+        align-items: start;
+    }
+
+
+
+    /* follow me  section */
+    .followMeSection {
+        padding: 2rem 0;
+        overflow: hidden;
+    }
+
+    .followMeSection>div {
+        gap: 1rem;
+    }
+
+    .followMeSection>div .left {
+        font-size: 2.5rem;
+    }
+
+    .followMeSection>div .right .socialIcon .icon {
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    /* footer section */
+    footer {
+        padding: 1rem 0;
+        overflow: hidden;
+    }
+
+    footer>.upper {
+        gap: 0rem;
+    }
+
+    footer .left {
+        font-size: 1rem;
+    }
+
+    footer .right ul {
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+
+    footer .bottom {
+        gap: 01rem;
+        justify-content: center;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+
+    .container .left div:first-child {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .left div:nth-child(2) {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .left {
+        padding-left: 0;
+    }
+
+    .container .left .desc {
+        width: 60%;
+        margin: 2rem 3rem;
+    }
+
+    .container .right .imgBack {
+        height: 70vw;
+        width: 70vw;
+        bottom: -7rem;
+        right: 2rem;
+    }
+
+    .container .right .image {
+        padding-right: 0rem;
+        right: unset;
+        left: -1vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .socialIcons .icon {
+        font-size: 1.4rem;
+    }
+
+
+    .homeSection .blur1 {
+        height: 15rem;
+        width: 20rem;
+        top: 0rem;
+        right: -11rem;
+    }
+    .container .right .image img {
+        height: 60vw;
+    }
+
+    .homeSection .blur2 {
+        height: 13rem;
+        width: 23rem;
+        top: 18rem;
+        right: -10rem;
+    }
+
+
+    .container .right .cvDownload {
+        height: 3.5rem;
+        width: 3.5rem;
+        bottom: 6.5rem;
+        left: 1rem;
+    }
+    .socialIcons {
+        top: -10rem;
+        z-index: 99;
+    }
+    .container .right .cvDownload::before {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .container .right .cvDownload::after {
+        height: 7rem;
+        width: 7rem;
+    }
+
+
+
+
+    /* for about section */
+    .aboutSection {
+        grid-template-columns: 1fr;
+        overflow-x: hidden;
+        height: auto;
+    }
+
+    .aboutSection .left {
+        margin-top: 5rem;
+    }
+
+    .aboutSection .img {
+        height: 80vw;
+        width: 80vw;
+    }
+
+    .aboutSection .img span {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        top: -3rem;
+
+    }
+
+    .aboutSection .right .desc {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .aboutSection .right {
+        align-items: center;
+    }
+
+    .aboutSection .blur1 {
+        background: rgb(208, 23, 184);
+        height: 8rem;
+        width: 8rem;
+        filter: blur(50px);
+        opacity: 0.7;
+    }
+
+    .aboutSection .blur2 {
+        background: rgb(208, 23, 184);
+        height: 8rem;
+        width: 8rem;
+        filter: blur(50px);
+        opacity: 0.7;
+    }
+
+    .aboutSection .blur3 {
+        background: rgb(208, 23, 184);
+        height: 8rem;
+        width: 8rem;
+        filter: blur(50px);
+        opacity: 0.7;
+    }
+
+    .aboutSection .right .arrow {
+        display: none;
+    }
+
+
+
+
+    /* my skills section */
+    .mySkillSection {
+        height: auto;
+        gap: 0rem;
+    }
+
+    .mySkillSection .upper {
+        font-size: 4rem;
+        padding: 3rem 0;
+    }
+
+    .mySkillSection .lower {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+
+    .mySkillSection .lower>div {
+        width: 85%;
+    }
+
+    .mySkillSection .lower li {
+        height: 0.9rem;
+        width: 0.9rem;
+        border-radius: 50%;
+    }
+
+    /* my project setion */
+    .myProjectSection {
+        gap: 0;
+        overflow-x: hidden;
+    }
+
+    .myProjectSection .heading {
+        font-size: 3rem;
+        margin: 3rem 0;
+        overflow-x: hidden;
+        height: auto;
+    }
+
+    .myProjectSection .projects>div:nth-child(1) {
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    .myProjectSection .projects div .img {
+        height: 11rem;
+        width: 17rem;
+        border-radius: 12px;
+    }
+
+    .myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+        left: -1rem;
+        right: 0;
+    }
+
+    .myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) {
+        align-self: end;
+        margin-right: 1rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) .img {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+        left: -18vw;
+        align-items: start;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) .img {
+        height: 12rem;
+        width: 90vw;
+    }
+
+    .myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+        top: 7rem;
+        right: 1rem;
+        align-items: end;
+
+    }
+
+    .myProjectSection .projects>div:nth-child(3) {
+        margin-left: 1rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) .img {
+        width: 16rem;
+        height: 11rem;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+        top: 7rem;
+        left: -2rem;
+        align-items: start;
+    }
+
+    .myProjectSection .projects>div:nth-child(4) {
+        margin-right: 1rem;
+    }
+
+
+    /* my bloog section */
+
+    .myBlogSection {
+        gap: 1rem;
+        overflow-x: hidden;
+        padding: 1rem 0;
+    }
+
+    .myBlogSection .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 80vh;
+        gap: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .myBlogSection .heading {
+        font-size: 3rem;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .myBlogSection .content .left {
+        align-items: center;
+        grid-row: 2;
+        flex-direction: column-reverse;
+    }
+
+    .myProjectSection .projects {
+        gap: 1.5rem;
+    }
+
+    .myBlogSection .content .right {
+        align-items: center;
+        grid-column: 1;
+    }
+
+    .myBlogSection .content .right>div {
+        width: 19rem;
+        height: 25rem;
+        gap: 0.5rem;
+    }
+
+    .myBlogSection .content .right .card .img {
+        height: 10rem;
+    }
+
+    .myBlogSection .content .right>div .title {
+        font-size: 1.2rem;
+    }
+
+    .myBlogSection .content .right>div {
+        width: 19rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .myBlogSection .content .left>div {
+        width: 19rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .myBlogSection .content .left .card .img {
+        height: 10rem;
+    }
+
+    .myBlogSection .content .left>div .title {
+        font-size: 1.2rem;
+    }
+
+    .myBlogSection .content .left .button {
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* for contact section */
+    .contactSection {
+        gap: 1rem;
+    }
+
+    .contactSection .heading {
+        font-size: 2.5rem;
+    }
+
+    .contactSection .form {
+        width: 80vw;
+        border-radius: 8px;
+        padding: 1rem 0;
+        gap: 1rem;
+    }
+
+    .contactSection .form form div {
+        width: 90%;
+        gap: 0.4rem;
+    }
+
+    .contactSection .form form div input {
+        padding: 0.8rem .5rem;
+        border-radius: 9px;
+        left: 0;
+    }
+
+    .contactSection .form form div textarea {
+        left: 0;
+        border-radius: 10px;
+        padding: 0.8rem .5rem;
+        font-size: .8rem;
+        height: 12rem;
+    }
+
+    .contactSection .circle1 {
+        border: 75px solid;
+        top: -14rem;
+        left: 0rem;
+        rotate: -121deg;
+        border-color: #d017b8;
+    }
+
+    /* follow me section */
+    .followMeSection>div {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .followMeSection>div .left {
+        font-size: 3rem;
+    }
+
+    .followMeSection>div .right .socialIcon {
+        gap: 1.5rem 2rem;
+    }
+
+    .followMeSection>div .right .socialIcon .icon {
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    /* footer section */
+    footer {
+        padding: 1rem 0;
+    }
+
+    footer>.upper {
+        gap: 1rem;
+    }
+
+    footer .left {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    footer .right ul {
+        gap: 1rem;
+    }
+
+    footer .right ul {
+        gap: 0.4rem;
+        font-size: 0.7rem;
+    }
+
+    footer .bottom {
+        gap: 1rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 0 1rem;
+    }
+}
+@media (max-width:375px){
+    .container .right .imgBack {
+        height: 80vw;
+        width: 80vw;
+        bottom: -7rem;
+        right: 2rem;
+    }
+    .container .right .image {
+        padding-right: 0rem;
+        right: unset;
+        left: 4vw;
+        align-items: center;
+        justify-content: center;
+    }    .container .right .image img {
+        height: 75vw;
+    }
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bicyclette';
+    src: url('./fonts/fonnts.com-Bicyclette_Regular.woff2') format('woff2'),
+         url('./fonts/fonnts.com-Bicyclette_Regular.woff') format('woff'),
+         url('./fonts/fonnts.com-Bicyclette_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Bicyclette', sans-serif;
+    font-weight: 400;
+  }
+  

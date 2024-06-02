@@ -1,0 +1,356 @@
+.homeSection {
+  position: relative;
+  overflow-x: hidden;
+  inset: 0;
+}
+
+.homeSection .blur1 {
+  height: 26rem;
+  width: 45rem;
+  border-radius: 999px;
+  position: absolute;
+  opacity: 0.8;
+  filter: blur(120px);
+  background-color: rgb(30, 0, 255);
+  top: -10rem;
+  right: -15rem;
+}
+
+.homeSection .blur2 {
+  height: 20rem;
+  width: 45rem;
+  border-radius: 1011px;
+  position: absolute;
+  opacity: 0.7;
+  filter: blur(120px);
+  background-color: rgb(208, 23, 184);
+  top: 12rem;
+  right: -10rem;
+}
+
+/* /////Second Section //// */
+
+.aboutSection .blur1 {
+  background: rgb(208, 23, 184);
+  height: 15rem;
+  width: 15rem;
+  filter: blur(117px);
+  border-radius: 9999px;
+  position: absolute;
+  animation: blur1 20s infinite;
+  transition: 2s linear background;
+}
+
+@keyframes blur1 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  20% {
+    left: -10rem;
+    top: 15rem;
+  }
+
+  60% {
+    left: 15rem;
+    top: 20rem;
+    background: rgb(208 23 23);
+  }
+
+  80% {
+    left: 10rem;
+    top: 15rem;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+.aboutSection .blur2 {
+  background: rgb(0 154 255);
+  height: 13rem;
+  width: 13rem;
+  filter: blur(86px);
+  border-radius: 9999px;
+  position: absolute;
+  animation: blur2 20s infinite;
+  left: 40rem;
+
+  transition: 2s linear background;
+}
+
+@keyframes blur2 {
+  0% {
+    left: 40rem;
+    top: 0;
+  }
+
+  30% {
+    left: 50rem;
+    top: 5rem;
+  }
+
+  60% {
+    left: 30rem;
+    top: 30rem;
+    background: rgb(0 2 173);
+  }
+
+  75% {
+    left: 10rem;
+    top: 15rem;
+  }
+
+  100% {
+    left: 40rem;
+    top: 0;
+  }
+}
+
+.aboutSection .blur3 {
+  background: rgb(255 0 0);
+  height: 12rem;
+  width: 12rem;
+  filter: blur(101px);
+  border-radius: 9999px;
+  position: absolute;
+  animation: blur3 20s infinite;
+  right: 0;
+  transition: 2s linear background;
+}
+
+@keyframes blur3 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+
+  10% {
+    right: 10rem;
+    top: 10rem;
+  }
+
+  40% {
+    right: 25rem;
+    top: 20rem;
+  }
+
+  60% {
+    right: 40rem;
+    top: 15rem;
+    background: rgb(255 245 0);
+  }
+
+  100% {
+    right: 0rem;
+    top: 0;
+  }
+}
+
+/* for third section */
+
+.mySkillSection .blur2 {
+  background: rgb(44 0 255);
+  height: 10rem;
+  width: 10rem;
+  filter: blur(95px);
+  border-radius: 9999px;
+  position: absolute;
+  left: 5rem;
+  transition: 2s linear background;
+  top: 5rem;
+  animation: blur4 10s infinite;
+}
+
+@keyframes blur4 {
+  0% {
+    background: rgb(44 0 255);
+  }
+
+  25% {
+    background-color: rgb(0 255 17);
+  }
+
+  50% {
+    background-color: rgb(255 0 0);
+  }
+
+  75% {
+    background-color: #ffeb3b;
+  }
+
+  100% {
+    background: rgb(44 0 255);
+  }
+}
+
+.mySkillSection .blur1 {
+  background: rgb(44 0 255);
+  height: 10rem;
+  width: 10rem;
+  filter: blur(95px);
+  border-radius: 9999px;
+  position: absolute;
+  right: 5rem;
+  transition: 2s linear background;
+  bottom: 5rem;
+  animation: blur5 10s infinite;
+}
+
+@keyframes blur5 {
+  0% {
+    background-color: rgb(255 0 0);
+  }
+
+  25% {
+    background-color: #ffeb3b;
+  }
+
+  50% {
+    background: rgb(44 0 255);
+  }
+
+  75% {
+    background-color: rgb(0 255 17);
+  }
+
+  100% {
+    background-color: rgb(255 0 0);
+  }
+}
+
+/* for porject section */
+.blur6 {
+  background: rgb(44 0 255);
+  height: 12rem;
+  width: 9rem;
+  filter: blur(95px);
+  border-radius: 9999px;
+  position: absolute;
+  right: 5rem;
+  transition: 2s linear background;
+  top: 12rem;
+  opacity: 0.7;
+}
+
+.blur7 {
+  background: linear-gradient(42deg, rgb(44 0 255), rgb(208 23 184));
+  height: 12rem;
+  width: 43rem;
+  rotate: 120deg;
+  filter: blur(96px);
+  border-radius: 10px;
+  position: absolute;
+  left: 20rem;
+  top: 30rem;
+  opacity: 0.5;
+}
+
+.blur8 {
+  background: rgb(44 0 255);
+  width: 12rem;
+  height: 31rem;
+  filter: blur(96px);
+  border-radius: 999px;
+  position: absolute;
+  left: -3rem;
+  bottom: 0rem;
+  opacity: 0.4;
+}
+
+
+/* for blog section */
+.blur9,
+.blur10,
+.blur11 {
+  width: 12rem;
+  height: 31rem;
+  filter: blur(96px);
+  border-radius: 999px;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.myBlogSection .blur9 {
+  right: 0;
+  top: 6rem;
+  left: unset;
+  background: #5a00ff;
+}
+
+.myBlogSection .blur10 {
+  background: #ff00e39e;
+  height: 18rem;
+  bottom: 7rem;
+  left: 0;
+}
+
+.myBlogSection .blur11 {
+  background: #0b0ba7;
+  right: 34rem;
+  top: 30rem;
+  height: 36rem;
+  rotate: 45deg;
+}
+
+.blur {
+  z-index: 5;
+}
+
+
+/* for contact secton */
+.contactSection {
+  overflow: hidden;
+}
+
+.contactSection .blur12 {
+  width: 12rem;
+  height: 31rem;
+  filter: blur(96px);
+  border-radius: 999px;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.contactSection .blur12 {
+  background: #220080;
+  right: 0;
+  top: -9rem;
+  height: 20rem;
+  opacity: 0.7;
+}
+
+.contactSection .circle1 {
+  height: 26rem;
+  width: 40rem;
+  border: 100px solid;
+  border-radius: 600px 400px 0 0;
+  border-bottom: transparent;
+  position: absolute;
+  top: -4rem;
+  left: 4rem;
+  rotate: -117deg;
+  z-index: 1;
+  border-color: #d017b8;
+  filter: blur(1px);
+  opacity: 0.5;
+}
+
+footer {
+  position: relative; 
+}
+
+footer .blur13 { 
+  width: 12rem; 
+  filter: blur(96px);
+  border-radius: 999px;
+  position: absolute;
+  opacity: 0.7;
+  background: #220080;
+  top: -14rem;
+  height: 20rem;
+  left: -4rem;
+}
