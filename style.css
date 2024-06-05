@@ -35,10 +35,7 @@ main {
   z-index: 99;
 }
 
-.headerSection nav {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr 0.2fr;
-  place-items: center;
+.headerSection nav { 
   height: 75%;
   width: 85%;
   background: rgb(9, 10, 9);
@@ -51,10 +48,15 @@ main {
   justify-content: end;
   align-items: center;
 }
+.box{
 
+  display: grid;
+  grid-template-columns: .5fr auto .5fr;
+}
 .headerSection nav .left span {
   font-size: 1.7rem;
   font-weight: 600;
+  cursor:pointer;
 }
 
 .headerSection nav .mid ul {
@@ -65,16 +67,27 @@ main {
 .headerSection nav .mid ul li {
   list-style-type: none;
   position: relative;
+
+  cursor: pointer;
 }
 
-.active::after {
+.headerSection nav .mid ul li::after {
   content: "";
   position: absolute;
-  width: 115%;
+  width: 0%;
   height: 0.19rem;
   background-color: rgb(208, 23, 184);
   bottom: -6px;
   left: -2px;
+  transition: .2s linear;
+}
+
+.active::after {
+  width: 0%;
+}
+
+.headerSection nav .mid ul li:hover::after {
+  width: 110%;
 }
 
 .headerSection nav .right button {
@@ -87,17 +100,24 @@ main {
   background: rgb(53, 11, 89);
   font-size: 0.9rem;
   border: none;
+  transition: .25s linear;
 }
 
-.container {
+.headerSection  .right button:hover {
+  cursor: pointer;
+  background: rgb(137 0 255);
+}
+
+.innerPart {
   display: grid !important;
   place-items: center;
   grid-template-columns: 1fr 1fr;
   position: relative;
   overflow: hidden;
+  margin:0;
 }
 
-.container .lines {
+.innerPart .lines {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -106,7 +126,7 @@ main {
   top: 8rem;
 }
 
-.container .lines .line {
+.innerPart .lines .line {
   display: inline-block;
   width: 5rem;
   height: 0.3rem;
@@ -115,7 +135,7 @@ main {
   border-radius: 5px;
 }
 
-.container .left {
+.innerPart .left {
   position: relative;
   z-index: 99;
   flex-direction: column;
@@ -126,13 +146,13 @@ main {
   padding-top: 6rem;
 }
 
-.container .left div:first-child {
+.innerPart .left div:first-child {
   text-transform: uppercase;
   font-size: 2rem;
   color: rgb(154, 153, 156);
 }
 
-.container .left div:nth-child(2) {
+.innerPart .left div:nth-child(2) {
   font-size: 4rem;
   font-weight: bold;
   display: flex;
@@ -142,7 +162,7 @@ main {
   width: 100%;
 }
 
-.container .left .desc {
+.innerPart .left .desc {
   position: relative;
   width: 20vw;
   font-size: 1.2rem;
@@ -152,7 +172,7 @@ main {
   margin-top: 4rem;
 }
 
-.container .right .imgBack {
+.innerPart .right .imgBack {
   height: 45vw;
   width: 45vw;
   background-image: linear-gradient(to right, rgb(17, 128, 219), rgb(249, 66, 232));
@@ -162,7 +182,7 @@ main {
   right: 4rem;
 }
 
-.container .right .cvDownload {
+.innerPart .right .cvDownload {
   z-index: 999;
   position: absolute;
   flex-direction: column;
@@ -171,9 +191,11 @@ main {
   width: 5.5rem;
   border-radius: 50%;
   bottom: 10rem;
+  cursor: pointer;
+  transition: .2s linear;
 }
 
-.container .right .cvDownload::before {
+.innerPart .right .cvDownload::before {
   content: "";
   position: absolute;
   background: rgb(208 23 184 / 35%);
@@ -182,11 +204,13 @@ main {
   border-radius: 50%;
   bottom: -0.71rem;
   z-index: -1;
+  transition: .2s linear;
 
   filter: blur(1px);
 }
 
-.container .right .cvDownload::after {
+.innerPart .right .cvDownload::after {
+  transition: .2s linear;
   content: "";
   position: absolute;
   background: rgb(208 23 184 / 20%);
@@ -198,7 +222,24 @@ main {
   filter: blur(2px);
 }
 
-.container .right .image {
+.innerPart .right .cvDownload:hover {
+  background: #FF0080;
+  color: black;
+  font-weight: bold;
+
+}
+
+.innerPart .right .cvDownload:hover::before {
+  background: #FF0080;
+  opacity: 0.35;
+}
+
+.innerPart .right .cvDownload:hover::after {
+  background: #FF0080;
+  opacity: 0.2;
+}
+
+.innerPart .right .image {
   display: flex;
   align-items: center;
   align-items: end;
@@ -207,7 +248,7 @@ main {
   padding-right: 6rem;
 }
 
-.container .right .image img {
+.innerPart .right .image img {
   height: 40vw;
   z-index: 99;
   position: relative;
@@ -221,11 +262,25 @@ main {
   position: absolute;
   right: 1.5rem;
   top: 8rem;
-  z-index: 2;
+  z-index: 200;
+
+  height: 15rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socialIcons .icon {
+  cursor: pointer;
   font-size: 1.5rem;
+  transition: .3s linear;
+  height: 2rem;
+}
+
+.socialIcons .icon:hover {
+  font-size: 1.7rem;
+  color: #17d0a7;
 }
 
 /* //////////////////aboutSection ////////////////// */
@@ -281,7 +336,16 @@ main {
   outline: none;
   border-radius: 44px;
   position: relative;
+  transition: .3s linear;
   z-index: 99;
+}
+
+.aboutSection .right button:hover {
+  cursor: pointer;
+  background: #FF0080;
+
+  width: 15rem;
+  font-size: 1rem;
 }
 
 .aboutSection .right .arrow {
@@ -469,6 +533,13 @@ main {
   color: #ff00ee;
 }
 
+.myProjectSection .bottom span {
+  cursor: pointer;
+  transition:0.1s linear;
+}
+
+.myProjectSection .bottom span:hover {
+color:blue;}
 /* MyBlogSEction */
 
 
@@ -512,10 +583,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  background:none;
 }
 
 .myBlogSection .content .left>div .title {
   font-size: 1.7rem;
+  color:white;
 }
 
 .myBlogSection .content .left>div .desc {
@@ -541,10 +614,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  background:none;
 }
 
 .myBlogSection .content .right>div .title {
   font-size: 1.7rem;
+  color:white;
 }
 
 .myBlogSection .content .right>div .desc {
@@ -555,9 +630,15 @@ main {
 .myBlogSection .content .right .card .img {
   height: 14rem;
 }
+.myBlogSection .content  .card .img img{    border-radius: 5px 5px 0 0;}
 
-.myBlogSection .content .right .link {
+.myBlogSection .content .link {
   color: rgb(192, 23, 172);
+  cursor: pointer;
+}
+
+.myBlogSection .content .link:hover {
+  color: rgb(0 100 255);
 }
 
 .myBlogSection .content .left .button {
@@ -575,6 +656,15 @@ main {
   border-radius: 30px;
   outline: none;
   background-color: rgb(192, 23, 172);
+  transition: .3s linear;
+}
+
+.myBlogSection .content .left .btn:hover {
+  cursor: pointer;
+  background: #FF0080;
+
+  width: 15rem;
+  font-size: 1rem;
 }
 
 /* CONTACT SECTION */
@@ -647,6 +737,7 @@ main {
   height: 15rem;
   outline: none;
   background: linear-gradient(45deg, #300c2c, #0f070f);
+  color: white;
 }
 
 .contactSection .form form div label {
@@ -661,7 +752,15 @@ main {
   border-radius: 6rem;
   font-weight: bold;
   color: white;
+  transition: .2s linear;
   background: #d017b8;
+  cursor:pointer;
+}
+
+.form .btn button:hover {
+  font-size: 1rem;
+  width: 15rem;
+  background:rgb(255, 0, 200);
 }
 
 .followMeSection {
@@ -707,6 +806,13 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  cursor:pointer;
+  transition:.2s linear;
+}
+.followMeSection>div .right .socialIcon .icon:hover { 
+  color: white;
+  background: #2b17d0;
+  font-size: 3.2rem;
 }
 
 main>span {
@@ -732,14 +838,17 @@ footer>.upper {
 footer .left {
   font-size: 1.5rem;
   font-weight: bold;
+  cursor:pointer;
 }
 
 footer .right ul {
+
   gap: 4rem;
 }
 
 footer .right ul li {
   list-style: none;
+  cursor:pointer;
 }
 
 footer .bottom {
